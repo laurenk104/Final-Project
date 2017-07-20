@@ -2,8 +2,10 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- favicon -->
 <link rel="icon" href="rsz_logo-for-ambrosia.png" sizes="16x16">
 <style>
+/* cool scrolling thing */
 .parallax {
     /* The image used */
     background-image: url("http://www.nsmbl.nl/wp-content/uploads/2015/07/tumblr_ly6f1hnIR51qlmi8qo1_1280.jpg");
@@ -17,6 +19,7 @@
     opacity: 0.75;
     filter: alpha(opacity=75);
 }
+/* Phrase on top of the parallax image */
 .quote { 
 	font-size: 50px; 
 	font-family: Caudex;
@@ -28,6 +31,8 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+/* Code we deleted, but might use later
+	created a fixed navigation bar */
 header {
     top: 0;
     position: fixed;
@@ -35,6 +40,8 @@ header {
     width: 100%;
     padding-right: 1em;
 }
+	
+/* Navigation Bar */
 * {box-sizing:border-box}
 body {font-family: Garamond,sans-serif;}
 /* Caption text */
@@ -55,9 +62,8 @@ body {font-family: Garamond,sans-serif;}
   position: absolute;
   top: 0;
 }
-.active {
-  background-color: #717171;
-}
+	
+/* Mobile stuff we have not gotten around to fix */
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
@@ -71,9 +77,10 @@ body {font-family: Garamond,sans-serif;}
 </head>
 <body style="background-color:#fffff0;">
 <style>
-	h1 {
+h1 {
 	font-family: Caudex;
 }
+/* nav bar css */
 ul {
     list-style-type: none;
     margin: 0;
@@ -84,6 +91,7 @@ ul {
 li {
     float: left;
 }
+/* nav bar text color */
 li a {
     display: block;
     color: white;
@@ -91,9 +99,11 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+/* color when hovering over nav bar */
 li a:hover {
     background-color: #111;
 }
+/* Color of the nav bar tab you are currently on */
 .active {
   background-color: #717171;
 }
@@ -102,7 +112,8 @@ li a:hover {
 <body>
 
 <h1>Ambrosia ☀</h1>
-
+	
+<!-- nav bar -->	
 <ul>
   <li><a href="https://laurenk104.github.io/Final-Project/home.html">Home</a></li>
   <li><a class="active" href="https://laurenk104.github.io/Final-Project/handsAndFeet.html">Hands and Feet</a></li>
@@ -113,7 +124,8 @@ li a:hover {
 </ul>
 	
 </body>
-
+		
+<!-- text on top of parallax image -->
 <div class="parallax">
 	<div class="quote"> 
 		<center>
@@ -121,19 +133,8 @@ li a:hover {
 		</center>
 	</div>	
 </div>
-
-<style>
-nav {
-	position: fixed;
-	float: right;
-	max-width: 160px;
-	margin: 0;
-	padding: 1em;
-}
-</style>
-
-<div class="parallax2"></div>
-
+	
+<!-- hands and feet information -->
 <div style="height:200px; font-size:22px; font-color:#cce6ff; font-family: Amatic SC; padding: 2em;">
 	<h3>Grow Nails Faster</h3>
 	<p>Long and healthy nails are visually appealing to many people, but the wait for them to grow is aggravating. To speeden the nail growing process, use orange juice to soak nails for at least 10 minutes and rinse. Repeat daily until satisfied. 
